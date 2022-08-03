@@ -17,15 +17,14 @@
 
 ## Project Description 
 
-In the 2nd challenge of the bootcamp, I set out to make myself a coding portfolio. The portoflio should reflect who I am as a person, as well as my work as a developer. My projects are on display via Github, with clickable images as well as my resume in a clickable PDF file. Also included links to my Facebook where if anyone was super curious could friend me and see some of the awesome work ive been doing to my house! 
-
+For my third challenge its time to work on a working Password Generator! My projects are on display via Github, with clickable images as well as my resume in a clickable PDF file. 
 ---
 
 ## Installation
 
 To view the project, clone the git repository using VS Code. this will allow you to vie the index.html file ass well as the css style file. The website can be view by right clicking in the index.html file and opening via web browser.
 
-Link to deployed website: https://github.com/meyerbw10/CSS-Portfolio
+Link to deployed website: https://github.com/meyerbw10/Password-Generator
 
 ---
 
@@ -63,12 +62,17 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Change Log
 ## v1.0.0
 
+- adding css, js and read me files
+- updating Readme
+
+
 ---
 
 #### Technologies
 
 - HTML
 - CSS
+- Javascript
 
 ---
 
