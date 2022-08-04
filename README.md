@@ -1,6 +1,5 @@
 # Password-Generator
 
----
 
 ### Table of Contents 
 
@@ -17,7 +16,8 @@
 
 ## Project Description 
 
-For my third challenge its time to work on a working Password Generator! My projects are on display via Github, with clickable images as well as my resume in a clickable PDF file. 
+For my third challenge its time to work on a working Password Generator! User has choice on if their password will include, lowercase letters, uppercase letters, numers and/or symbols. My projects are on display via Github, with clickable images as well as my resume in a clickable PDF file. 
+
 ---
 
 ## Installation
@@ -30,7 +30,10 @@ Link to deployed website: https://github.com/meyerbw10/Password-Generator
 
 ### Usage
 
-pictures
+![](./assets/images/pic.png)
+
+![](./assets/images/pic2.png)
+
 ---
 
 ## User Story
@@ -57,13 +60,16 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
+---
 
 ## Change Log
 ## v1.0.0
 
 - adding html, css, js and read me files
 - updating Readme
-
+- finishing html & css 
+- finishing js and read me
+- final touches
 
 ---
 
