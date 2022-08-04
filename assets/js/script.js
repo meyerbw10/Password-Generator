@@ -6,14 +6,15 @@ var letters = "abcdefghijklmnopqrstuvwxyz".split("");
 var CapLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 var numbers = "0123456789".split("");
 var symbols = "!@#$%^&*()-_".split("");
-var globalSet = [];
-var generatedPassword = '';
+
 
 function generatePassword() {
-  
-  var passwordLength = parseInt(window.prompt("We are generating a password of at least 8 characters and no more than 128 characters."));
-  if (passwordLength < 8 || passwordLength > 128) {
-    alert("Criterea not met!");
+  var globalSet = [];
+  var generatedPassword = '';
+
+  var passwordLength = window.prompt("How long do you want your password to be? please enter a number between 8 and 128.");
+  if (passwordLength < 8 || passwordLength > 128 || passwordLength === NaN) {
+    alert("Criteria not met!");
     generatePassword();
   } else {
     var wantsLowercase = window.confirm("Do you want to include lowercase letters in your password?");
@@ -35,7 +36,7 @@ function generatePassword() {
 
     for (var i = 0; i < passwordLength; i++) {
       let currentChar = Math.floor(Math.random() * globalSet.length);
-      generatedPassword += currentChar;
+      generatedPassword += globalSet[currentChar];
     }
 
     return generatedPassword;
